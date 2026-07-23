@@ -1,0 +1,50 @@
+.aptitude-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0f172a;
+}
+
+.question-box{
+  width:600px;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  text-align:center;
+}
+
+.question-box h2{
+  color:#2563eb;
+}
+
+.question-box h3{
+  margin:20px 0;
+}
+
+.option-btn{
+  display:block;
+  width:100%;
+  margin:10px 0;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:#38bdf8;
+  color:white;
+  cursor:pointer;
+}
+
+.option-btn:hover{
+  background:#0284c7;
+}
+
+.result-box{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  background:#0f172a;
+  color:white;
+}

@@ -1,0 +1,36 @@
+.hr-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0f172a;
+}
+
+.hr-card{
+  width:700px;
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.hr-card h1{
+  text-align:center;
+}
+
+.hr-card textarea{
+  padding:10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+.hr-card button{
+  padding:12px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}

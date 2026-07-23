@@ -1,0 +1,66 @@
+.result-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0f172a;
+}
+
+.result-card{
+  width:500px;
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+}
+
+.selected{
+  background:green;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  margin:20px 0;
+}
+.result-container h1 {
+  color: white;
+}
+
+.score-card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  color: black;
+}
+
+.score-card h2,
+.score-card h3 {
+  color: black;
+}
+
+.selected {
+  color: green;
+  font-size: 40px;
+  
+}
+
+.rejected {
+  color: red;
+  font-size: 40px;
+}
+
+.home-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selected,
+.rejected {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}

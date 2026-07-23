@@ -1,0 +1,35 @@
+.candidate-container{
+  padding:40px;
+  min-height:100vh;
+  background:#f8fafc;
+}
+
+.candidate-container h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+}
+
+th,td{
+  border:1px solid #ddd;
+  padding:12px;
+  text-align:center;
+}
+
+th{
+  background:#2563eb;
+  color:white;
+}
+
+button{
+  background:red;
+  color:white;
+  border:none;
+  padding:8px 15px;
+  cursor:pointer;
+}
