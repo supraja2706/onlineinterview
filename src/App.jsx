@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Register from "./pages/Register";
-import Aptitude from "./pages/Aptitude";
-import Technical from "./pages/Technical";
-import HR from "./pages/HR";
-import Result from "./pages/Result";
-import AdminLogin from "./pages/AdminLogin";
-import Dashboard from "./pages/Dashboard";
-import ManageJobs from "./pages/ManageJobs";
-import ManageCandidates from "./pages/ManageCandidates";
+import Home from "./Pages/Home";
+import Register from "./Pages/Register";
+import Aptitude from "./Pages/Aptitude";
+import Technical from "./Pages/Technical";
+import HR from "./Pages/HR";
+import Result from "./Pages/Result";
+import AdminLogin from "./Pages/AdminLogin";
+import Dashboard from "./Pages/Dashboard";
+import ManageJobs from "./Pages/ManageJobs";
+import ManageCandidates from "./Pages/ManageCandidates";
 function App() {
   return (
     <BrowserRouter>
